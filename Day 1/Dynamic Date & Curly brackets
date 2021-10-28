@@ -1,0 +1,17 @@
+import React from "react";
+import ReactDOM from "react-dom";
+const fname = "Arzav" ; 
+const lname = "Jain" ; 
+
+const currentDate = new Date();
+const year = currentDate.getFullYear();
+
+
+ReactDOM.render(<div>
+  <p> Created by {fname + " " + lname} </p>
+  <p> Copyright {year} </p>
+  </div>, 
+  document.getElementById("root")
+  );
+
+
