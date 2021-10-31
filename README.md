@@ -1,3 +1,3 @@
 # React.js
-Started React 
-Learned how to create basic React Apps
+Started React.
+Learned how to create basic React Apps.
