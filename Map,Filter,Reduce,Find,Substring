@@ -1,0 +1,36 @@
+var numbers = [3, 56, 2, 48, 5];
+
+1) Map(): it is a function that iterates over an array amd manipulate or change items. 
+
+function double(x){
+  return x*2 ;
+}
+const Numb = numbers.map(double);
+console.log(Numb);
+
+2) Filter() : it filters out the required values. 
+
+function greaterThan10(x)
+{
+  return x>10;
+}
+const More = numbers.filter(greaterThan10);
+console.log(More);
+
+3) Find() : find the first item that matches from an array.
+
+function Find(x)
+{
+return x>10;
+}
+const newNumber = numbers.find(Find);
+console.log(newNumber)
+
+4) Substring(): reduces the length of the string 
+
+const newEmojipedia = emojipedia.map(function (emojiEntry)
+{
+  return emojiEntry.meaning.substring(0,100);
+});
+
+console.log(newEmojipedia);
